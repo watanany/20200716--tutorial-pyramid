@@ -1,0 +1,21 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+pyramid = "*"
+waitress = "*"
+"pyramid-jinja2" = "*"
+
+
+[dev-packages]
+
+ipython = "*"
+pyramid-debugtoolbar = "*"
+pytest = "*"
+webtest = "*"
+pytest-cov = "*"
